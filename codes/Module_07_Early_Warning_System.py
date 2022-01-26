@@ -20,23 +20,27 @@ import pandas as pd
 import numpy as np
 
 # Include your own access token instead of xxxxxx
-access_token = 'xxxxxx'
+access_token = 'xxxxxxx'
 
 # Initiate the Facebook Business API with the access token
 FacebookAdsApi.init(access_token=access_token)
 
 # Write a list with all the Ad Account IDs you want to include
-ad_account_ids = ['act_xxxxxxx', 'act_xxxxxxx', 'act_xxxxxxx']
+ad_account_ids = ['act_xxxxxxx',
+                  'act_xxxxxxx',
+                  'act_xxxxxxx',
+                  'act_xxxxxxx',
+                  ]
 
 # Define the dates you want to make the call on to fetch historical data
 # Historical data has to be ferched only the first time
 # Next calls can be updated on a daily basis
 
-since_date = '2021-01-01'
-until_date = '2021-06-30'
+since_date = '2021-10-01'
+until_date = '2021-12-31'
 
 # Write the directory where you want to save all the OUTPUTS
-save_directory = 'C:/Users/user_name/Desktop/' # this is just an example on PC
+save_directory = 'C:/Users/username/Desktop/' # this is just an example on PC
 
 #--------------------------------------END INPUT SECTION----------------------------------------#
 
@@ -159,9 +163,17 @@ append_metrics_campaigns_filter = append_metrics_campaigns[(append_metrics_campa
 # Add the Account currency info to the append_metrics_campaigns_filter dataframe
 df_campaigns = pd.merge(append_metrics_campaigns_filter, append_info_accounts, on = 'account_id', how = 'left')
 
-# Convert string budgets to float budgets
-df_campaigns['campaign_daily_budget'] = df_campaigns['campaign_daily_budget'].astype(float)
-df_campaigns['campaign_lifetime_budget'] = df_campaigns['campaign_lifetime_budget'].astype(float)
+# Convert string budgets to float budgets if the campaign has values for that column
+
+if 'campaign_daily_budget' in df_campaigns.columns:
+    df_campaigns['campaign_daily_budget'] = df_campaigns['campaign_daily_budget'].astype(float)
+else:
+    df_campaigns['campaign_daily_budget'] =float('nan')
+    
+if 'campaign_lifetime_budget' in df_campaigns.columns:
+    df_campaigns['campaign_lifetime_budget'] = df_campaigns['campaign_lifetime_budget'].astype(float)
+else: 
+    df_campaigns['campaign_lifetime_budget'] =float('nan')
 
 # Convert the currency cents to whole units (in those cases that applies)
 df_campaigns['campaign_daily_budget_curr'] = df_campaigns['campaign_daily_budget'] / df_campaigns['currency_divisor']
@@ -186,7 +198,7 @@ for campaigns in df_campaigns['campaign_id']:
 df_campaigns = df_campaigns.drop(['campaign_daily_budget', 'campaign_lifetime_budget'], axis=1) 
 
 # Export data in case deeper analysis is needed
-export_csv = df_campaigns.to_csv(r'' + save_directory + 'Campaigns_Budget_Setup.csv', header=True, index = None)
+#export_csv = df_campaigns.to_csv(r'' + save_directory + 'Campaigns_Budget_Setup.csv', header=True, index = None)
 
 # Create two basic stats summaries to calculate the outliers based on standard deviations
 stats_daily_camp = df_campaigns.groupby('account_id', as_index = False).agg({'campaign_daily_budget_curr':['mean', 'std']})
@@ -332,7 +344,10 @@ append_metrics_adsets = append_metrics_adsets.rename(columns =
                                                             'lifetime_budget': 'adset_lifetime_budget'
                                                            })
 
+
+
     
+
 # Replace zeros with NaN
 append_metrics_adsets['adset_daily_budget'] = append_metrics_adsets['adset_daily_budget'].replace('0', float('nan'))
 append_metrics_adsets['adset_lifetime_budget'] = append_metrics_adsets['adset_lifetime_budget'].replace('0', float('nan'))
@@ -350,9 +365,19 @@ append_metrics_adsets_filter = append_metrics_adsets[(append_metrics_adsets['sta
 # Add the Account currency info to the append_metrics_adsets_filter dataframe
 df_adsets = pd.merge(append_metrics_adsets_filter, append_info_accounts, on = 'account_id', how = 'left')
 
-# Convert string budgets to float budgets
-df_adsets['adset_daily_budget'] = df_adsets['adset_daily_budget'].astype(float)
-df_adsets['adset_lifetime_budget'] = df_adsets['adset_lifetime_budget'].astype(float)
+# Convert string budgets to float budgets if the adset has values for that column
+
+if 'adset_daily_budget' in df_adsets.columns:
+    df_adsets['adset_daily_budget'] = df_adsets['adset_daily_budget'].astype(float)
+else:
+    df_adsets['adset_daily_budget'] =float('nan')
+
+
+if 'adset_lifetime_budget' in df_adsets.columns:
+    df_adsets['adset_lifetime_budget'] = df_adsets['adset_lifetime_budget'].astype(float)
+else:
+    df_adsets['adset_lifetime_budget'] =float('nan')
+
 
 # Convert the currency cents to whole units (in those cases that applies)
 df_adsets['adset_daily_budget_curr'] = df_adsets['adset_daily_budget'] / df_adsets['currency_divisor']
@@ -377,7 +402,7 @@ for adsets in df_adsets['adset_id']:
 df_adsets = df_adsets.drop(['adset_daily_budget', 'adset_lifetime_budget'], axis=1)    
 
 # Export data in case deeper analysis is needed
-export_csv = df_adsets.to_csv(r'' + save_directory + 'AdSets_Budget_Setup.csv', header=True, index = None)
+#export_csv = df_adsets.to_csv(r'' + save_directory + 'AdSets_Budget_Setup.csv', header=True, index = None)
 
 # Create two basic stats summaries to calculate the outliers based on standard deviations
 stats_daily_adsets = df_adsets.groupby('account_id', as_index = False).agg({'adset_daily_budget_curr':['mean', 'std']})
@@ -483,3 +508,4 @@ export_csv = df_adsets_stats.to_csv(r'' + save_directory + 'AdSets_Confidence_In
 # On the other hand, additional functions can be added to automatically send an e-mail notification to the people
 # related to the AdAccount to make them aware of a possible overspend issue. 
 # These funtions can be developed by each user of the module according to specific needs
+
