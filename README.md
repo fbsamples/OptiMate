@@ -1,6 +1,6 @@
-# Planning Excellence Toolkit
+# OptiMate
 
-Pre-built sample codes in Python that allows to take advantage of the Facebook's Reach & Frequency API to compare different strategies when planning campaigns for branding purposes.
+Pre-built sample codes in Python that allows to take advantage of the Meta's Reach & Frequency API to compare different strategies when planning campaigns for branding purposes.
 
 ## Examples
 
@@ -10,15 +10,15 @@ Using Module 01, it is possible to compare 5 different objectives: Reach, Brand 
 
 ## Example for Reach (people):
 
-![](https://github.com/fbsamples/Planning_Excellence_Toolkit/blob/main/images/M01_Reach_people.PNG)
+![](https://github.com/fbsamples/OptiMate/blob/main/images/M01_Reach_people.PNG)
 
 ## Example for Total frequency:
 
-![](https://github.com/fbsamples/Planning_Excellence_Toolkit/blob/main/images/M01_Total_frequency.PNG)
+![](https://github.com/fbsamplesOptiMate/blob/main/images/M01_Total_frequency.PNG)
 
 ## Example for Cost Per Mille (CPM):
 
-![](https://github.com/fbsamples/Planning_Excellence_Toolkit/blob/main/images/M01_CPM.PNG)
+![](https://github.com/fbsamples/OptiMate/blob/main/images/M01_CPM.PNG)
 
 
 
@@ -35,7 +35,7 @@ IMPORTANT: It is highly recommended to uninstall any other previous version of t
 
 *pip uninstall Facebook_business
 
-## How Planning Excellence Toolkit works
+## How OptiMate works
 
 Different use cases are covered in different Modules. Each module runs a specific code with an expected outcome. Take a look at each Module use case description in the DOCUMENTATION.txt file to choose the one that best fits your needs.
 
@@ -51,4 +51,4 @@ Read the full documentation on the DOCUMENTATION.txt file
 See the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.
 
 ## License
-Planning Excellence Toolkit is licensed under the LICENSE file in this repository.
+OptiMate is licensed under the LICENSE file in this repository.
