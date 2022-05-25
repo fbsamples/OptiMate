@@ -1,4 +1,4 @@
-# Contributing to Planning Excellence Toolkit
+# Contributing to OptiMate
 We want to make contributing to this project as easy and transparent as
 possible.
 
@@ -34,5 +34,5 @@ outlined on that page and do not file a public issue.
 * 80 character line length
 
 ## License
-By contributing to PlanninG Excellence Toolkit, you agree that your contributions will be licensed
+By contributing to OptiMate, you agree that your contributions will be licensed
 under the LICENSE file in the root directory of this source tree.
