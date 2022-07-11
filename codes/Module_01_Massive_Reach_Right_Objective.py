@@ -455,6 +455,7 @@ for objective in objectives_list:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -639,6 +640,7 @@ for objective in objectives_list:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'device_platforms': [
@@ -817,6 +819,7 @@ for objective in objectives_list:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1001,6 +1004,7 @@ for objective in objectives_list:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1185,6 +1189,7 @@ for objective in objectives_list:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
