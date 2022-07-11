@@ -472,6 +472,7 @@ if objective == 'POST_ENGAGEMENT':
                     'stream',
                     'story',
                     'explore',
+                    'reels',
                 ],
 
                 'audience_network_positions': [
@@ -651,6 +652,7 @@ elif objective == 'LINK_CLICKS':
                     'stream',
                     'story',
                     'explore',
+                    'reels',
                 ],
 
                 #'audience_network_positions': [
@@ -830,6 +832,7 @@ elif ((objective == 'REACH') |  (objective == 'BRAND_AWARENESS') | (objective ==
                     'stream',
                     'story',
                     'explore',
+                    'reels',
                 ],
 
                 'audience_network_positions': [
@@ -994,6 +997,7 @@ if age_min >= 18 :
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1134,6 +1138,7 @@ if age_min >= 18 :
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     #'audience_network_positions': [
@@ -1273,6 +1278,7 @@ if age_min >= 18 :
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1422,6 +1428,7 @@ else:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1560,6 +1567,7 @@ else:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     #'audience_network_positions': [
@@ -1697,6 +1705,7 @@ else:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
