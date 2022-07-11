@@ -448,6 +448,7 @@ for frequency_cap in frequency_caps:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -634,6 +635,7 @@ for frequency_cap in frequency_caps:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'device_platforms': [
@@ -815,6 +817,7 @@ for frequency_cap in frequency_caps:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1002,6 +1005,7 @@ for frequency_cap in frequency_caps:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1189,6 +1193,7 @@ for frequency_cap in frequency_caps:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
