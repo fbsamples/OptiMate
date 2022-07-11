@@ -489,6 +489,7 @@ for country in countries:
                                             'stream',
                                             'story',
                                             'explore',
+                                            'reels',
                                         ],
 
                                         'audience_network_positions': [
@@ -552,6 +553,7 @@ for country in countries:
                                             'stream',
                                             'story',
                                             'explore',
+                                            'reels',
                                         ],
 
                                         #'audience_network_positions': [
@@ -616,6 +618,7 @@ for country in countries:
                                             'stream',
                                             'story',
                                             'explore',
+                                            'reels',
                                         ],
 
                                         'audience_network_positions': [
@@ -680,6 +683,7 @@ for country in countries:
                                             'stream',
                                             'story',
                                             'explore',
+                                            'reels',
                                         ],
 
                                         'audience_network_positions': [
@@ -744,6 +748,7 @@ for country in countries:
                                             'stream',
                                             'story',
                                             'explore',
+                                            'reels',
                                         ],
 
                                         'audience_network_positions': [
