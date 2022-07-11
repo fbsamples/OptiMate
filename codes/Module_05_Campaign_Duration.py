@@ -443,6 +443,7 @@ for camp_days in campaign_days:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -629,6 +630,7 @@ for camp_days in campaign_days:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'device_platforms': [
@@ -810,6 +812,7 @@ for camp_days in campaign_days:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -998,6 +1001,7 @@ for camp_days in campaign_days:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
@@ -1186,6 +1190,7 @@ for camp_days in campaign_days:
                         'stream',
                         'story',
                         'explore',
+                        'reels',
                     ],
 
                     'audience_network_positions': [
