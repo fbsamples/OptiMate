@@ -480,7 +480,6 @@ for country in countries:
                                             'marketplace',
                                             'video_feeds',
                                             'story',
-                                            'search',
                                             'instream_video',
 
                                         ],
@@ -544,7 +543,6 @@ for country in countries:
                                             'marketplace',
                                             'video_feeds',
                                             'story',
-                                            'search',
                                             'instream_video',
 
                                         ],
@@ -609,7 +607,6 @@ for country in countries:
                                             'marketplace',
                                             'video_feeds',
                                             'story',
-                                            'search',
                                             'instream_video',
 
                                         ],
@@ -674,7 +671,6 @@ for country in countries:
                                             'marketplace',
                                             'video_feeds',
                                             'story',
-                                            'search',
                                             'instream_video',
 
                                         ],
@@ -739,7 +735,6 @@ for country in countries:
                                             'marketplace',
                                             'video_feeds',
                                             'story',
-                                            'search',
                                             'instream_video',
 
                                         ],
