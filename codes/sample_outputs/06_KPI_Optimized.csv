@@ -1,0 +1,4 @@
+﻿Country,Account currency,Gender,Age min,Age max,Campaign days,Frequency cap,Campaign objective,Included interests/behaviors,Excluded interests/behaviors,Scenario budget,Budget,Impressions,Reach,Reach (millions),Lower Reach Percentage,Upper Reach Percentage,Frequency,Weekly frequency,CPM,Scenario
+['MX'],USD,"Male, Female",25,44,14,3 times every 7 days,REACH,[],[],Business as usual,100000,159438902.1,38550615.3,38.6,0.803,0.945,4.135828775,2.067914388,0.627199502,Maximum reach
+['MX'],USD,"Male, Female",25,44,14,4 times every 7 days,REACH,[],[],Business as usual,100000,187203559.3,37169718.37,37.2,0.774,0.911,5.036451139,2.51822557,0.534177878,Maximum weekly frequency
+['MX'],USD,"Male, Female",25,44,56,4 times every 7 days,REACH,[],[],Business as usual,100000,346903441.9,32078057.6,32.1,0.668,0.786,10.81430718,1.351788397,0.288264652,Minimum CPM
