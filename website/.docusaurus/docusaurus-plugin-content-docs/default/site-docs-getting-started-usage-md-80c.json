@@ -1,0 +1,27 @@
+{
+  "unversionedId": "GettingStarted/Usage",
+  "id": "GettingStarted/Usage",
+  "title": "Use cases",
+  "description": "The following steps will guide you through the whole process so you can start using OptiMate from the scratch.",
+  "source": "@site/docs/GettingStarted/Usage.md",
+  "sourceDirName": "GettingStarted",
+  "slug": "/GettingStarted/Usage",
+  "permalink": "/OptiMate/docs/GettingStarted/Usage",
+  "draft": false,
+  "editUrl": "https://github.com/fbsamples/OptiMate/docs/GettingStarted/Usage.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prerequisites",
+    "permalink": "/OptiMate/docs/GettingStarted/Prerequisites"
+  },
+  "next": {
+    "title": "Main input Parameters",
+    "permalink": "/OptiMate/docs/GettingStarted/Input parameters"
+  }
+}

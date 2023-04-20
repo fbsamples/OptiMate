@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopti_mate=self.webpackChunkopti_mate||[]).push([[758],{6395:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/OptiMate/blog/tags/hola","allTagsPath":"/OptiMate/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopti_mate=self.webpackChunkopti_mate||[]).push([[938],{7141:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/OptiMate/blog/tags/docusaurus","allTagsPath":"/OptiMate/blog/tags","count":4}')}}]);

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "FAQs",
+  "id": "FAQs",
+  "title": "FAQs",
+  "description": "Q1: Is there a user interface for OptiMate?",
+  "source": "@site/docs/FAQs.md",
+  "sourceDirName": ".",
+  "slug": "/FAQs",
+  "permalink": "/OptiMate/docs/FAQs",
+  "draft": false,
+  "editUrl": "https://github.com/fbsamples/OptiMate/docs/FAQs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Test & Learn",
+    "permalink": "/OptiMate/docs/GettingStarted/Test & Learn"
+  }
+}

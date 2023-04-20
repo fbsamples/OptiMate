@@ -1,0 +1,27 @@
+{
+  "unversionedId": "GettingStarted/Outcomes",
+  "id": "GettingStarted/Outcomes",
+  "title": "Outcomes",
+  "description": "Modules 1,2,4,5 and 9",
+  "source": "@site/docs/GettingStarted/Outcomes.md",
+  "sourceDirName": "GettingStarted",
+  "slug": "/GettingStarted/Outcomes",
+  "permalink": "/OptiMate/docs/GettingStarted/Outcomes",
+  "draft": false,
+  "editUrl": "https://github.com/fbsamples/OptiMate/docs/GettingStarted/Outcomes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Main input Parameters",
+    "permalink": "/OptiMate/docs/GettingStarted/Input parameters"
+  },
+  "next": {
+    "title": "Test & Learn",
+    "permalink": "/OptiMate/docs/GettingStarted/Test & Learn"
+  }
+}

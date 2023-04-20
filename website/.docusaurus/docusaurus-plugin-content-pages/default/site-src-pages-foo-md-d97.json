@@ -1,0 +1,6 @@
+{
+  "type": "mdx",
+  "permalink": "/foo",
+  "source": "@site/src/pages/foo.md",
+  "frontMatter": {}
+}

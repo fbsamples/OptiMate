@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopti_mate=self.webpackChunkopti_mate||[]).push([[640],{6754:e=>{e.exports=JSON.parse('{"permalink":"/OptiMate/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
