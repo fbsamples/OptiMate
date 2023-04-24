@@ -1,0 +1,27 @@
+{
+  "unversionedId": "GettingStarted/Outcomes - Copy",
+  "id": "GettingStarted/Outcomes - Copy",
+  "title": "Outcomes",
+  "description": "",
+  "source": "@site/docs/GettingStarted/Outcomes - Copy.md",
+  "sourceDirName": "GettingStarted",
+  "slug": "/GettingStarted/Outcomes - Copy",
+  "permalink": "/docs/GettingStarted/Outcomes - Copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/GettingStarted/Outcomes - Copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Main input Parameters",
+    "permalink": "/docs/GettingStarted/Input parameters"
+  },
+  "next": {
+    "title": "Outcomes",
+    "permalink": "/docs/GettingStarted/Outcomes"
+  }
+}
