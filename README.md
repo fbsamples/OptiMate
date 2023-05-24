@@ -1,6 +1,6 @@
 # OptiMate
 
-Pre-built sample codes in Python that allows to take advantage of the Meta's Reach & Frequency API to compare different strategies when planning campaigns for branding purposes.
+Pre-built sample codes in Python that allows to take advantage of the Meta's Reach & Frequency API to compare different strategies when planning campaigns for branding purposes. To take a deeper look, visit our [OptiMate Micro-website](https://fbsamples.github.io/OptiMate/).
 
 ## Examples
 
