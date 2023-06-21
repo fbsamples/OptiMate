@@ -3,6 +3,9 @@ sidebar_position: 1
 ---
 
 # Welcome to OptiMate
+
+**Note: Discontinuing OptiMate.** This is no longer a supported project. Please note that any information, guidance, or assistance provided herein is based on until April 2023. As sources, technologies, and best practices evolve over time, the content may no longer be accurate, applicable, or up to date.
+
 ![OptiMate](\img\OptiMate-social-card.png)
 ---
 ## What is OptiMate?

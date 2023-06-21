@@ -1,3 +1,7 @@
+## Note: Discontinuing OptiMate
+
+This is no longer a supported project. Please note that any information, guidance, or assistance provided herein is based on until April 2023. As sources, technologies, and best practices evolve over time, the content may no longer be accurate, applicable, or up to date.
+
 # OptiMate
 
 Pre-built sample codes in Python that allows to take advantage of the Meta's Reach & Frequency API to compare different strategies when planning campaigns for branding purposes. To take a deeper look, visit our [OptiMate Micro-website](https://fbsamples.github.io/OptiMate/).
