@@ -1,6 +1,6 @@
 ## Note: Discontinuing OptiMate
 
-21 June 2023: This is no longer a supported project. Please note that any information, guidance, or assistance provided herein is valid as of April 2023. As sources, technologies, and best practices evolve over time, the content may no longer be accurate, applicable, or up to date.
+21 June 2023: Please note that any information, guidance, or assistance provided herein is valid as of April 2023. This is no longer a maintained project, so as sources, technologies, and best practices evolve over time, the content may no longer be applicable or accurate.
 
 # OptiMate
 
